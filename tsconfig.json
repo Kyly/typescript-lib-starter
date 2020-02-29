@@ -1,0 +1,21 @@
+{
+  "compilerOptions": {
+    "outDir": "./dist/",
+    "noImplicitAny": true,
+    "sourceMap": true,
+    "module": "es6",
+    "target": "es5",
+    "allowJs": true,
+    "allowSyntheticDefaultImports": true,
+    "declaration": true,
+    "lib": [
+      "es6",
+      "webworker",
+      "dom"
+    ],
+    "typeRoots": [
+      "src/types",
+      "node_modules/@types"
+    ]
+  }
+}
